@@ -1,0 +1,50 @@
+/* Lane styles */
+.Lane {
+  max-width: 20vw;
+/*   min-height: 20vh;
+   */
+  max-height:40vh;
+  margin: 10px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  lightgrey;
+  border-radius: 5px;
+}
+
+.LaneName {
+  width: 18vw;
+  min-height: 2vh;
+  margin: 3px;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid grey;
+  font-size: 20px;
+  font-weight:  800;
+  text-transform: uppercase;
+}
+
+.btn {
+  border: 2px solid #03A9F4;
+  color: #03A9F4;
+  padding: 4px 8px;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.LaneDelete {
+  margin-bottom: 5px;
+}
+
+.AddLane {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #FFF;
+  background: #03A9F4;
+  text-decoration: none;
+  border-radius: 8px;
+}

@@ -1,0 +1,6 @@
+.notes {
+  display: flex;
+  flex-flow: column nowrap;
+  width:  18vw;
+  min-height: 10px;
+}
